@@ -22,9 +22,7 @@ public class ex {
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}	
-		
-		
+		}
 	}
 	
 	public static void gugudan() {
