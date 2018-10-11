@@ -3,19 +3,19 @@ package practice02;
 public class Practice1 {
 
 	public static void main(String[] args) {
-		// Class Gugudan 按眉 p1 积己
-		Gugudan p1 = new Gugudan();
+		// Class Gugudan 按眉 积己
+		Gugudan gugudan1 = new Gugudan();
 
-		// Class Diamond 按眉 p2 积己
-		Diamond p2 = new Diamond();
+		// Class Diamond 按眉 积己
+		Diamond diamond1 = new Diamond();
 
-		// Class Sungjuk 按眉 p3 积己
-		Sungjuk p3 = new Sungjuk();
+		// Class Sungjuk 按眉 积己
+		Sungjuk sungjuk1 = new Sungjuk();
 		
 		// 阿 按眉俊辑 console芒俊 免仿窍绰 窃荐甫 龋免.
-		p1.print2console();
-		p2.print2console();		
-		p3.print2console();
+		gugudan1.print2console();
+		diamond1.print2console();		
+		sungjuk1.print2console();
 	}
 
 }
