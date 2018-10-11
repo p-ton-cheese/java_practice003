@@ -1,8 +1,8 @@
 package practice02;
 
-public class gugudan {
+public class Gugudan {
 
-	void print2console() {
+	public void print2console() {
 		// 구구단을 표현하기 위한 정수형 변수 2개 선언
 		int iter1, iter2;
 		

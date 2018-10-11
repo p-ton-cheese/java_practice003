@@ -1,8 +1,8 @@
 package practice02;
 
-public class diamond {
+public class Diamond {
 	
-	void print2console() {
+	public void print2console() {
 		// 다이아몬드 출력을 위한 변수 선언.
 		int iter3, iter4, iter5, iter6;
 		
