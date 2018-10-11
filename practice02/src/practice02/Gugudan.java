@@ -3,30 +3,30 @@ package practice02;
 public class Gugudan {
 
 	public void print2console() {
-		// ±¸±¸´ÜÀ» Ç¥ÇöÇÏ±â À§ÇÑ Á¤¼öÇü º¯¼ö 2°³ ¼±¾ğ
+		// êµ¬êµ¬ë‹¨ì„ í‘œí˜„í•˜ê¸° ìœ„í•œ ì •ìˆ˜í˜• ë³€ìˆ˜ 2ê°œ ì„ ì–¸
 		int iter1, iter2;
 		
 		System.out.println("");
-		System.out.println("±¸±¸´Ü");
+		System.out.println("êµ¬êµ¬ë‹¨");
 		System.out.println("");
 		
-		// ±¸±¸´ÜÀ» °¡·Î·Î Ç¥±â
-		// 1Â÷ ´ÜÀÎ 2~9´Ü±îÁö Ç¥±âÇÏ±â ÈÖÇÑ for¹® 
+		// êµ¬êµ¬ë‹¨ì„ ê°€ë¡œë¡œ í‘œê¸°
+		// 1ì°¨ ë‹¨ì¸ 2~9ë‹¨ê¹Œì§€ í‘œê¸°í•˜ê¸° íœ˜í•œ forë¬¸ 
 		for (iter1 = 2; iter1 < 10; iter1++) {
-			// 2Â÷ ´ÜÀÇ ¿ä¼Ò 1~9±îÁö Ç¥±âÇÏ±â À§ÇÑ for¹®
+			// 2ì°¨ ë‹¨ì˜ ìš”ì†Œ 1~9ê¹Œì§€ í‘œê¸°í•˜ê¸° ìœ„í•œ forë¬¸
 			for (iter2 = 1; iter2 < 10; iter2++) {
-				// X * X = X ¸¦ console¿¡ Ç¥±â ÇÏ±â À§ÇÑ print. 
+				// X * X = X ë¥¼ consoleì— í‘œê¸° í•˜ê¸° ìœ„í•œ print. 
 				System.out.printf("%2d X %2d = %2d\t", iter1, iter2, iter1*iter2);				
 			}
-			// ÁÙ¹Ù²ŞÀ» ÇÏ±â À§ÇÑ println.
+			// ì¤„ë°”ê¿ˆì„ í•˜ê¸° ìœ„í•œ println.
 			System.out.println("");
 		}
 		
-		// Ãâ·ÂÀº ¾Æ·¡¿Í °°´Ù.
+		// ì¶œë ¥ì€ ì•„ë˜ì™€ ê°™ë‹¤.
 		// 2*1=2 2*2=4 .... 2*9=18
-		// 3´Ü
+		// 3ë‹¨
 		// ...
-		// 9´Ü
+		// 9ë‹¨
 		
 		System.out.println("");
 		System.out.println("");

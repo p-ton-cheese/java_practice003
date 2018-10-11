@@ -3,16 +3,16 @@ package practice02;
 public class Practice1 {
 
 	public static void main(String[] args) {
-		// Class Gugudan °´Ã¼ »ı¼º
+		// Class Gugudan ê°ì²´ ìƒì„±
 		Gugudan gugudan1 = new Gugudan();
 
-		// Class Diamond °´Ã¼ »ı¼º
+		// Class Diamond ê°ì²´ ìƒì„±
 		Diamond diamond1 = new Diamond();
 
-		// Class Sungjuk °´Ã¼ »ı¼º
+		// Class Sungjuk ê°ì²´ ìƒì„±
 		Sungjuk sungjuk1 = new Sungjuk();
 		
-		// °¢ °´Ã¼¿¡¼­ consoleÃ¢¿¡ Ãâ·ÂÇÏ´Â ÇÔ¼ö¸¦ È£Ãâ.
+		// ê° ê°ì²´ì—ì„œ consoleì°½ì— ì¶œë ¥í•˜ëŠ” í•¨ìˆ˜ë¥¼ í˜¸ì¶œ.
 		gugudan1.print2console();
 		diamond1.print2console();		
 		sungjuk1.print2console();
