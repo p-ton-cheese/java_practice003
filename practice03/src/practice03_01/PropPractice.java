@@ -25,7 +25,7 @@ public class PropPractice {
 	public void write() {
 		Properties properties = new Properties();
 	    		    
-	    properties.setProperty("a", "properties test");
+	    properties.setProperty("a", "properties test"); 
 
 	    // Write properties file.
 	    try {

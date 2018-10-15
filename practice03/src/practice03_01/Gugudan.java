@@ -26,7 +26,7 @@ public class Gugudan {
 		// 2*1=2 2*2=4 .... 2*9=18
 		// 3단
 		// ...
-		// 9단
+		// 9단 
 		
 		System.out.println("");
 		System.out.println("");

@@ -47,8 +47,8 @@ public class PropertiesPractice {
 	    System.out.println(avalue);
 	}
 	
-	// Properties 파일에 쓰기
-	public void write() {
+	// Properties 파일에 쓰기 
+	public void write() { 
 		
 		Properties properties = new Properties();
 	    

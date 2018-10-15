@@ -139,7 +139,7 @@ public class Sungjuk {
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-			System.out.println("file2write error!!");
+			System.out.println("file2write error!!"); 
 		}
 		
 		try {

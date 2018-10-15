@@ -14,7 +14,7 @@ public class Practice01 {
 		propStr = prop.read("Diamond");
 		// 받아온 데이터를 정수형 데이터로 변환하여 저장할 변수.
 		int line = 0;
-
+ 
 		// data에 문자열이 있는 경우 에러
 		try {
 			// data를 정수형으로 변환할때 에러가 발생하는지 확인.
@@ -26,7 +26,7 @@ public class Practice01 {
 			dia.print2console(line);
 		} catch (NumberFormatException e) {
 			System.out.println("--- error!! properties file data error!!");
-		}
+		} 
 		
 		// 구구단 객체 생성
 		Gugudan gugu = new Gugudan();
